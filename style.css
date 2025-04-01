@@ -1,30 +1,51 @@
 *{
     box-sizing: border-box;   
    }
-   
 
 body{
     background-color:burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1{
     text-align: center;
 }
 
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
 .sIzquierda{
     background-color: aqua;
     float: left;
-    width: 45%;
-    margin: 2px;
+    width: 50%;
+    height: 50%;
+    margin: 15px;
 }
 
 .sDerecha{
-    background-color:blueviolet;
+    background-color: azure;
     float: left;
-    width: 40%;
-    margin: 2px;
+    width: 50%;
+    height: 50%;
+    margin: 15px;
 }
 
+.Iizquierda{
+    background-color:cornflowerblue;
+    position:absolute;
+    float: right;
+    width: 50%;
+    height: 50%;
+    margin: 15px;
+    top: 50%;
+    
+}
 
 
 @media screen and (max-width:800px) {
