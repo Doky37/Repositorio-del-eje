@@ -38,6 +38,18 @@ osc(6,0.1).thresh(0.1,0).modulate(src(s0),1).out(o1)
 
   osc(5, 1.8,2).color(5, 15, -3.1).rotate(0.30, 0.1).pixelate(3, 15).modulate(src(s2),1).out(o0)
 
+  var hydra4 = new Hydra({
+    canvas:document.getElementById("myCanva4"),
+    detectAudio: false
+  })
+  //https://www.flickr.com/photos/vjnet/24375283653/in/photolist-D8XGBg-D8Cr2N-KnLUq8-X1yueA-DDeS5f-JEHPJp-2jKJBAH-2kSNtqe-2exyUvL-B1rcrs-2jDqjFT-xHBdxW-2mEyo8K-2qw9fu3-2hWKVxL-83o8e9-tnihqn-2iSqFea-2qBxu2M-2qw4FBs-2qBGswW-2qBetu4-2qDvCre-2mHESa9-2qv32mz-2qwyLQp-2qzYo64-2qCVQgP-2qv7Z1J-5ZNTyq-2dcHint-2qy8724-2qupFna-2qwV5PB-2qBkVWg-2quxRP3-2qvq32B-2qzQoHa-2oD7Qza-2quUjbe-2qCZDvZ-2qDqf6f-2qBfGJH-2qB9QWW-2qzdZXh-2qznoSY-2qADwVN-2qCUb2C-2qCtVVK-2qxfoy7
+
+  s3.initVideo('https://live.staticflickr.com/video/24375283653/d8eef711bf/360p.mp4?s=eyJpIjoyNDM3NTI4MzY1MywiZSI6MTc0Mzc4MzEzNCwicyI6ImY4YWQwOWNlNTk4ZGNjYzYxZjFkNDdlZmNiYzc1Zjk1NjQ3ZDdmOGMiLCJ2IjoxfQ') 
+
+  osc(5, 2,2).color(5, 15, -3.1).rotate(0.30, 0.1).pixelate(3, 15).modulate(src(s3),1).out(o0)
+
+  
+
 
 
   

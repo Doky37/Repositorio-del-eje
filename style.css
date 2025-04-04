@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;   
-   }
+}
 
 body{
     background-color:burlywood;
@@ -9,10 +9,18 @@ body{
     align-items: center;
 }
 
-h1{
+.texto{
+    background-color: chartreuse;
+    font-size: 50px;
+    color: darkcyan;
+    padding: 20px;
+    position: absolute;
     text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
 }
-
 
 .container{
     display: flex;
@@ -47,6 +55,16 @@ h1{
     
 }
 
+.Iderecha{
+    background-color: rgb(172, 40, 40);
+    position: absolute;
+    float: left;
+    width: 50%;
+    height: 50%;
+    margin: 15px;
+    bottom: -3.4%;
+    right: -1%
+}
 
 @media screen and (max-width:800px) {
     .derecha, .izquierda, .centro {
