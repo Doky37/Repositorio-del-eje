@@ -48,7 +48,15 @@ osc(6,0.1).thresh(0.1,0).modulate(src(s0),1).out(o1)
 
   osc(5, 2,2).color(5, 15, -3.1).rotate(0.30, 0.1).pixelate(3, 15).modulate(src(s3),1).out(o0)
 
-  
+  const btnAbrirModal = document.querySelector("#btn-abrir");
+  const btnCerrarModal = document.querySelector("#btn-cerrar");
+  const modal = document.querySelector("#modal");
 
+  btnAbrirModal.addEventListener("click",()=>{
+    modal.showModal();
+  })
 
+  btnCerrarModal.addEventListener("click",()=>{
 
+    modal.close();
+  })
