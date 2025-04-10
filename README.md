@@ -1,7 +1,7 @@
 # Repositorio-del-eje
- Odisea urbana. Licenciatura de ACD, UAM Lerma, México.
+Odisea urbana. Licenciatura de ACD, UAM Lerma, México.
 
- ## Integrantes
+## Integrantes
 Donnie
 Arantxa Gabriela Serrano Escobedo
 Luis Muñiz
