@@ -107,31 +107,253 @@
     position: absolute;
     left: 66%;
 }
+
+/* del segundo script*/
 .S5{
     float: left;
     position: absolute;
-    top: 50%;
+    top: 35%;
+}
+
+.S6{
+    float: left;
+    position: absolute;
+    top: 35%;
+    left: 22%;
+}
+
+.S7{
+    float: left;
+    position: absolute;
+    top: 35%;
+    left: 44%;
+}
+
+.S8{
+    float: left;
+    position: absolute;
+    top: 35%;
+    left: 66%;
+}
+
+/*del tercer script*/
+
+.S9{
+    float: left;
+    position: absolute;
+    top: 70%;
+}
+
+.S10{
+    float: left;
+    position: absolute;
+    top: 70%;
+    left: 22%;
+}
+
+.S11{
+    float: left;
+    position: absolute;
+    top: 70%;
+    left: 44%;
+}
+
+.S12{
+    float: left;
+    position: absolute;
+    top: 70%;
+    left: 66%;
 }
 
 
 /*ODISEA2*/
 .pagina3{
-    background-color: cyan;
+    background-color: rgb(217, 0, 255);
     display: flex;
     justify-content: center;
     align-items: center;
-}
 
+}
 .container2{
     display: flex;
     width: 100%;
     height: 100%;
 }
 
-.odisea020{
+.A1{
     float: left;
     position: absolute;
 }
+
+.A2{
+    float: left;
+    position: absolute;
+    left: 22%;
+}
+
+.A3{
+    float: left;
+    position: absolute;
+    left: 44%;
+}
+
+.A4{
+    float: left;
+    position: absolute;
+    left: 66%;
+}
+
+/* del segundo script*/
+.A5{
+    float: left;
+    position: absolute;
+    top: 35%;
+}
+
+.A6{
+    float: left;
+    position: absolute;
+    top: 35%;
+    left: 22%;
+}
+
+.A7{
+    float: left;
+    position: absolute;
+    top: 35%;
+    left: 44%;
+}
+
+.A8{
+    float: left;
+    position: absolute;
+    top: 35%;
+    left: 66%;
+}
+
+/*del tercer script*/
+
+.A9{
+    float: left;
+    position: absolute;
+    top: 70%;
+}
+
+.A10{
+    float: left;
+    position: absolute;
+    top: 70%;
+    left: 22%;
+}
+
+.A11{
+    float: left;
+    position: absolute;
+    top: 70%;
+    left: 44%;
+}
+
+.A12{
+    float: left;
+    position: absolute;
+    top: 70%;
+    left: 66%;
+}
+
+/*ODISEA3*/
+.pagina4{
+    background-color: rgb(218, 54, 150);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container3{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.D1{
+    float: left;
+    position: absolute;
+}
+
+.D2{
+    float: left;
+    position: absolute;
+    left: 22%;
+}
+
+.D3{
+    float: left;
+    position: absolute;
+    left: 44%;
+}
+
+.D4{
+    float: left;
+    position: absolute;
+    left: 66%;
+}
+
+/* del segundo script*/
+.D5{
+    float: left;
+    position: absolute;
+    top: 35%;
+}
+
+.D6{
+    float: left;
+    position: absolute;
+    top: 35%;
+    left: 22%;
+}
+
+.D7{
+    float: left;
+    position: absolute;
+    top: 35%;
+    left: 44%;
+}
+
+.D8{
+    float: left;
+    position: absolute;
+    top: 35%;
+    left: 66%;
+}
+
+/*del tercer script*/
+
+.D9{
+    float: left;
+    position: absolute;
+    top: 70%;
+}
+
+.D10{
+    float: left;
+    position: absolute;
+    top: 70%;
+    left: 22%;
+}
+
+.D11{
+    float: left;
+    position: absolute;
+    top: 70%;
+    left: 44%;
+}
+
+.D12{
+    float: left;
+    position: absolute;
+    top: 70%;
+    left: 66%;
+}
+
 
 @media screen and (max-width:800px) {
     .derecha, .izquierda, .centro {

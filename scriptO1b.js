@@ -1,5 +1,5 @@
 var hydra = new Hydra({
-    canvas: document.getElementById("odisea01"),
+    canvas: document.getElementById("odisea09"),
     detectAudio: false
   })
   /*video flicker gato prueba 1*/ 
@@ -12,7 +12,7 @@ var hydra = new Hydra({
     src(s0).mask(o1)).out(o0)
 
 var hydra2 = new Hydra({
-    canvas: document.getElementById("odisea02"),
+    canvas: document.getElementById("odisea10"),
     detectAudio: false
     })
     /*video flicker gato prueba 1*/ 
@@ -24,7 +24,7 @@ var hydra2 = new Hydra({
     src(s1).mask(o1)).out(o0)
 
 var hydra3 = new Hydra({
-    canvas: document.getElementById("odisea03"),
+    canvas: document.getElementById("odisea11"),
     detectAudio: false
     })
     /*video flicker gato prueba 1*/ 
@@ -36,7 +36,7 @@ var hydra3 = new Hydra({
     src(s2).mask(o1)).out(o0)
 
 var hydra4 = new Hydra({
-    canvas: document.getElementById("odisea04"),
+    canvas: document.getElementById("odisea12"),
     detectAudio: false
     })
     /*video flicker gato prueba 1*/ 
