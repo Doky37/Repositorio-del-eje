@@ -360,3 +360,105 @@
         width: 100%;
     }
 }
+
+/*Botones
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0; /* Elimina márgenes adicionales */ /*
+    background: linear-gradient(90deg, blue, indigo, violet, orange, violet, indigo, blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300%; /* Aumenta el tamaño del fondo para permitir el movimiento */ /*
+    animation: colorSpectrum 5s infinite linear; /* Asegura un movimiento suave y continuo */ /*
+}
+
+@keyframes colorSpectrum {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+/* Estilos para los títulos
+.Odisea {
+    padding-top: 50pxpx;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    font-family:  "Boldonse", system-ui;
+}
+
+.Urbana {
+    color: white;
+    font-size: 150px;
+    text-align: center;
+    font-family:  "Boldonse", system-ui;
+    padding-bottom: 30px;
+}
+
+.boton{
+    background-color: none;
+    background: linear-gradient(90deg, blue, indigo, violet);
+    background-size: 300%;
+    animation: colorSpectrum 5s infinite linear;
+    border:none;
+    color:aliceblue;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    margin: 30px;
+} 
+
+.boton:hover {
+    background: linear-gradient(90deg, red, yellow, green);
+    background-size: 300%;
+    animation: colorSpectrum 5s infinite linear;
+    cursor: pointer;
+}
+
+.boton:active {
+    background: linear-gradient(90deg, green, blue, purple);
+    background-size: 300%;
+    animation: colorSpectrum 5s infinite linear;
+    cursor: pointer;
+}
+
+h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family:  "Boldonse", system-ui;
+    margin: 30px; /* Elimina márgenes adicionales */ /*
+    background: linear-gradient(90deg, blue, indigo, violet, orange, violet, indigo, blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300%; /* Aumenta el tamaño del fondo para permitir el movimiento */ /*
+    animation: colorSpectrum 5s infinite linear; /* Asegura un movimiento suave y continuo */ /*
+}
+
+.texto{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family:  'Courier New', Courier, monospace;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 100px;
+} */
