@@ -1,6 +1,5 @@
 var hydra = new Hydra({
   canvas: document.getElementById("myCanvas"),
-  detectAudio: false
 })
 /*video flicker gato prueba 1*/ 
 s0.initVideo('https://live.staticflickr.com/video/2417059433/7b3e2439b4/iphone_wifi.mp4?s=eyJpIjoyNDE3MDU5NDMzLCJlIjoxNzQzNDc5NTU4LCJzIjoiMTM5OTllOGMyYjRkNWU4ODQ0NmIyYjEwODcyYWE2ZTE0MjE2ODM4ZSIsInYiOjF9')
@@ -16,7 +15,6 @@ osc(6,0.1).thresh(0.1,0).modulate(src(s0),1).out(o1)
 
   var hydra2 = new Hydra ({
     canvas: document.getElementById("myCanva2"),
-    detectAudio: false
   })
 
   /* video flicker ave cantando*/
@@ -29,7 +27,6 @@ osc(6,0.1).thresh(0.1,0).modulate(src(s0),1).out(o1)
 
   var hydra3 = new Hydra({
     canvas:document.getElementById("myCanva3"),
-    dectecAudio: false
   })
 
   //https://www.flickr.com/photos/janeykay2007/4694020989/in/photolist-89N5Un-2p2HvSL-89Rq8h-2oRiP4W-8G52un-z26nDH-8K2SmH-61s27N-6a7gDi-2mh3VaQ-KJVZYJ-8PbyZC-8n8Qrs-2kGvseb-2i1zSxV-eHiHEi-aoyduH-2qjgVPz-7xtNXh-LKXJHD-2eWoSk4-paVw1i-oTGmL7-2iS6EP1-2ocYRw4-djUVge-9MjTfp-6n63jo-pbcbQM-p9aaUq-C83ssV-W7qNYV-rkqdh8-2kYXnn6-2mszKr6-paVvqa-pbaaM5-aoVN1n-2pHQznr-2jwjGhN-8QUntD-84Dyqj-p9ab6Y-oTFRDP-oTGVUt-i5HUPm-2n3YDLJ-oTGUYG-ETiWiL-e6o9b8//
@@ -40,7 +37,6 @@ osc(6,0.1).thresh(0.1,0).modulate(src(s0),1).out(o1)
 
   var hydra4 = new Hydra({
     canvas:document.getElementById("myCanva4"),
-    detectAudio: false
   })
   //https://www.flickr.com/photos/vjnet/24375283653/in/photolist-D8XGBg-D8Cr2N-KnLUq8-X1yueA-DDeS5f-JEHPJp-2jKJBAH-2kSNtqe-2exyUvL-B1rcrs-2jDqjFT-xHBdxW-2mEyo8K-2qw9fu3-2hWKVxL-83o8e9-tnihqn-2iSqFea-2qBxu2M-2qw4FBs-2qBGswW-2qBetu4-2qDvCre-2mHESa9-2qv32mz-2qwyLQp-2qzYo64-2qCVQgP-2qv7Z1J-5ZNTyq-2dcHint-2qy8724-2qupFna-2qwV5PB-2qBkVWg-2quxRP3-2qvq32B-2qzQoHa-2oD7Qza-2quUjbe-2qCZDvZ-2qDqf6f-2qBfGJH-2qB9QWW-2qzdZXh-2qznoSY-2qADwVN-2qCUb2C-2qCtVVK-2qxfoy7
 
