@@ -2,73 +2,6 @@
     box-sizing: border-box;   
 }
 
-/*INDEX*/
-.pagina1{
-    background-color:burlywood;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.texto{
-    background-color: chartreuse;
-    font-size: 50px;
-    color: darkcyan;
-    padding: 20px;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-}
-
-.container{
-    display: flex;
-    width: 100%;
-    height: 100%;
-}
-
-.sIzquierda{
-    /*background-color: aqua;*/
-    position: absolute;
-    float: left;
-    width: 50%;
-    height: 50%;
-    left: 5%;
-}
-
-.sDerecha{
-    /*background-color: azure;*/
-    position: absolute;
-    float: left;
-    width: 50%;
-    height: 50%;
-    right: -5%;
-}
-
-.Iizquierda{
-    /*background-color:cornflowerblue;*/
-    position:absolute;
-    float: right;
-    width: 50%;
-    height: 50%;
-    left: 5%;
-    top: 50%;
-    
-}
-
-.Iderecha{
-    /*background-color: rgb(172, 40, 40);*/
-    position: absolute;
-    float: left;
-    width: 50%;
-    height: 50%;
-
-    bottom: 0%;
-    right: -5%
-}
-
 
 /*ODISEA1*/
 
@@ -91,6 +24,7 @@
 }
 
 .S2{
+    background-color: azure;
     float: left;
     position: absolute;
     left: 22%;
@@ -361,7 +295,7 @@
     }
 }
 
-/*Botones
+/*Botones*/
 .container {
     display: flex;
     flex-direction: column;
@@ -372,13 +306,13 @@ h1 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin: 0; /* Elimina márgenes adicionales */ /*
+    margin: 0; /* Elimina márgenes adicionales */ 
     background: linear-gradient(90deg, blue, indigo, violet, orange, violet, indigo, blue);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 300%; /* Aumenta el tamaño del fondo para permitir el movimiento */ /*
-    animation: colorSpectrum 5s infinite linear; /* Asegura un movimiento suave y continuo */ /*
+    animation: colorSpectrum 5s infinite linear; /* Asegura un movimiento suave y continuo */ 
 }
 
 @keyframes colorSpectrum {
@@ -389,7 +323,10 @@ h1 {
         background-position: 100% 50%;
     }
 }
-/* Estilos para los títulos
+/* Estilos para los títulos*/
+.pagina1{
+    background-color: black;
+}
 .Odisea {
     padding-top: 50pxpx;
     color: white;
@@ -443,13 +380,13 @@ h2{
     font-size: 50px;
     text-align: center;
     font-family:  "Boldonse", system-ui;
-    margin: 30px; /* Elimina márgenes adicionales */ /*
+    margin: 30px; /* Elimina márgenes adicionales */ 
     background: linear-gradient(90deg, blue, indigo, violet, orange, violet, indigo, blue);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 300%; /* Aumenta el tamaño del fondo para permitir el movimiento */ /*
-    animation: colorSpectrum 5s infinite linear; /* Asegura un movimiento suave y continuo */ /*
+    animation: colorSpectrum 5s infinite linear; /* Asegura un movimiento suave y continuo */ 
 }
 
 .texto{
@@ -461,4 +398,4 @@ h2{
     margin-left: 100px;
     margin-right: 100px;
     padding-bottom: 100px;
-} */
+} 
