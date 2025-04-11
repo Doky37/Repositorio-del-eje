@@ -6,69 +6,31 @@
     <title>Odisea Urbana</title>
     <script src="https://unpkg.com/hydra-synth"></script>
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body class="pagina2">
 
     <div class="container1">
         
+        <!--se cambio para un video de 3min, solo habra un hydra -->
         <div class="S1"> 
-            <canvas id="odisea01" width="250" height="190"></canvas>
-        </div>
-
-        <div class="S2">
-            <canvas id="odisea02" width="250" height="189"></canvas>
-        </div>
-
-        <div class="S3">
-            <canvas id="odisea03" width="251" height="190"></canvas>
-        </div>
-
-        <div class="S4">
-            <canvas id="odisea04" width="250" height="191"></canvas>
-        </div>
-
-        <!--se encuentra en el scriptO1a-->
-
-        <div class="S5">
-            <canvas id="odisea05" width="250" height="190"></canvas>
-        </div>
-
-        <div class="S6">
-            <canvas id="odisea06" width="250" height="189"></canvas>
-        </div>
-
-        <div class="S7">
-            <canvas id="odisea07" width="251" height="190"></canvas>
-        </div>
-
-        <div class="S8">
-            <canvas id="odisea08" width="250" height="191"></canvas>
-        </div>
-
-        <!--se encuntra en el scriptO1b-->
-        <div class="S9">
-            <canvas id="odisea09" width="250" height="190" ></canvas>
-        </div>
-
-        <div class="S10" >
-            <canvas id="odisea10" width="250" height="189"></canvas>
-        </div>
-
-        <div class="S11">
-            <canvas id="odisea11" width="251" height="190"></canvas>
-        </div>
-
-        <div class="S12">
-            <canvas id="odisea12" width="250" height="191"></canvas>
+            <canvas id="odisea01"></canvas>
         </div>
 
     </div>
 
+    <!--para las zonas de mensajes -->
+
+    <div id="zona1" class="zona" onclick="mostrarPopup(event, 'Ya es tarde')"></div>
+    <div id="zona2" class="zona" onclick="mostrarPopup(event, 'Por que no pasa el camión')"></div>
+    <div id="zona3" class="zona" onclick="mostrarPopup(event, 'Hace mucho calor')"></div>
+
+    <div id="popup" class="popup"></div>
+
     <!--scripts de conexion de los canvas de hydra-->
 
     <script src="scriptO1.js"></script>
-    <script src="scriptO1a.js"></script>
-    <script src="scriptO1b.js"></script>
 
 </body>
 </html>

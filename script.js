@@ -43,21 +43,3 @@ osc(6,0.1).thresh(0.1,0).modulate(src(s0),1).out(o1)
   s3.initVideo('https://live.staticflickr.com/video/24375283653/d8eef711bf/360p.mp4?s=eyJpIjoyNDM3NTI4MzY1MywiZSI6MTc0Mzc4MzEzNCwicyI6ImY4YWQwOWNlNTk4ZGNjYzYxZjFkNDdlZmNiYzc1Zjk1NjQ3ZDdmOGMiLCJ2IjoxfQ') 
 
   osc(5, 2,2).color(5, 15, -3.1).rotate(0.30, 0.1).pixelate(3, 15).modulate(src(s3),1).out(o0)*/
-
-  const btnAbrirModal = document.querySelector("#btn-abrir");
-  const btnCerrarModal = document.querySelector("#btn-cerrar");
-  const modal = document.querySelector("#modal");
-
-  btnAbrirModal.addEventListener("click",()=>{
-    modal.showModal();
-  })
-
-  btnCerrarModal.addEventListener("click",()=>{
-
-    modal.close();
-  })
-
-  btnCerrarModal.addEventListener("click",()=>{
-
-    modal.close();
-  })
