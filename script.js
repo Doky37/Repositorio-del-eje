@@ -1,7 +1,7 @@
-var hydra = new Hydra({
+/*var hydra = new Hydra({
   canvas: document.getElementById("myCanvas"),
 })
-/*video flicker gato prueba 1*/ 
+/*video flicker gato prueba 1
 s0.initVideo('https://live.staticflickr.com/video/2417059433/7b3e2439b4/iphone_wifi.mp4?s=eyJpIjoyNDE3MDU5NDMzLCJlIjoxNzQzNDc5NTU4LCJzIjoiMTM5OTllOGMyYjRkNWU4ODQ0NmIyYjEwODcyYWE2ZTE0MjE2ODM4ZSIsInYiOjF9')
 
 osc(6,0.1).thresh(0.1,0).modulate(src(s0),1).out(o1)
@@ -11,19 +11,19 @@ osc(6,0.1).thresh(0.1,0).modulate(src(s0),1).out(o1)
   src(s0).mask(o1)).out(o0)
 
 
-  /*prueba  div var2 */ 
+  /*prueba  div var2 
 
   var hydra2 = new Hydra ({
     canvas: document.getElementById("myCanva2"),
   })
 
-  /* video flicker ave cantando*/
+  /* video flicker ave cantando
   s1.initVideo('https://live.staticflickr.com/video/52045424441/20864ce48c/1080p.mp4?s=eyJpIjo1MjA0NTQyNDQ0MSwiZSI6MTc0MzQ3OTkwNiwicyI6ImFiZGQ2ZGFkYTMxNjY1NDBmMjFiODc5MTY3YmIxYzQ4MGYyMDljMmYiLCJ2IjoxfQ')
 
   osc(4, 0.1, 0.8).color(1.04,0, -1.1).rotate(0.30, 0.1).pixelate(2, 20).modulate(src(s1),3).out(o0)  
 
 
-  /*prueba div var3*/
+  /*prueba div var3
 
   var hydra3 = new Hydra({
     canvas:document.getElementById("myCanva3"),
@@ -42,7 +42,7 @@ osc(6,0.1).thresh(0.1,0).modulate(src(s0),1).out(o1)
 
   s3.initVideo('https://live.staticflickr.com/video/24375283653/d8eef711bf/360p.mp4?s=eyJpIjoyNDM3NTI4MzY1MywiZSI6MTc0Mzc4MzEzNCwicyI6ImY4YWQwOWNlNTk4ZGNjYzYxZjFkNDdlZmNiYzc1Zjk1NjQ3ZDdmOGMiLCJ2IjoxfQ') 
 
-  osc(5, 2,2).color(5, 15, -3.1).rotate(0.30, 0.1).pixelate(3, 15).modulate(src(s3),1).out(o0)
+  osc(5, 2,2).color(5, 15, -3.1).rotate(0.30, 0.1).pixelate(3, 15).modulate(src(s3),1).out(o0)*/
 
   const btnAbrirModal = document.querySelector("#btn-abrir");
   const btnCerrarModal = document.querySelector("#btn-cerrar");

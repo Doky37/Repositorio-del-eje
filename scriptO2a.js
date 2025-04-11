@@ -3,7 +3,7 @@ var hydra = new Hydra({
     detectAudio: false
   })
   /*video flicker gato prueba 1*/ 
-  s0.initVideo('https://live.staticflickr.com/video/2417059433/7b3e2439b4/iphone_wifi.mp4?s=eyJpIjoyNDE3MDU5NDMzLCJlIjoxNzQzNDc5NTU4LCJzIjoiMTM5OTllOGMyYjRkNWU4ODQ0NmIyYjEwODcyYWE2ZTE0MjE2ODM4ZSIsInYiOjF9')
+  s0.initVideo('https://live.staticflickr.com/video/2417059433/7b3e2439b4/iphone_wifi.mp4?s=eyJpIjoyNDE3MDU5NDMzLCJlIjoxNzQ0MzUwNzI0LCJzIjoiNmNjYmUyNjNhNzBiN2E3NGFjY2YwZWM2OGYxOTU2MzFmNWUxY2I1NCIsInYiOjF9')
   
   osc(6,0.1).thresh(0.1,0).modulate(src(s0),1).out(o1)
   
@@ -16,7 +16,7 @@ var hydra = new Hydra({
     detectAudio: false
     })
     /*video flicker gato prueba 1*/ 
-    s1.initVideo('https://live.staticflickr.com/video/52045424441/20864ce48c/1080p.mp4?s=eyJpIjo1MjA0NTQyNDQ0MSwiZSI6MTc0MzQ3OTkwNiwicyI6ImFiZGQ2ZGFkYTMxNjY1NDBmMjFiODc5MTY3YmIxYzQ4MGYyMDljMmYiLCJ2IjoxfQ')
+    s1.initVideo('https://live.staticflickr.com/video/41247400630/33485ace34/1080p.mp4?s=eyJpIjo0MTI0NzQwMDYzMCwiZSI6MTc0NDM1MTQ0NywicyI6IjYyZGNiYzcyOWRiY2NkOWU4NTViZTJjNTRlMjM0YjllYTk2ZmMxYzQiLCJ2IjoxfQ')
       
     osc(6,0.1).thresh(0.1,0).modulate(src(s0),1).out(o1)
     src(o0).saturate(1.2)
@@ -28,7 +28,7 @@ var hydra = new Hydra({
     detectAudio: false
     })
     /*video flicker gato prueba 1*/ 
-    s2.initVideo('https://live.staticflickr.com/video/2417059433/7b3e2439b4/iphone_wifi.mp4?s=eyJpIjoyNDE3MDU5NDMzLCJlIjoxNzQzNDc5NTU4LCJzIjoiMTM5OTllOGMyYjRkNWU4ODQ0NmIyYjEwODcyYWE2ZTE0MjE2ODM4ZSIsInYiOjF9')
+    s2.initVideo('https://live.staticflickr.com/video/2417059433/7b3e2439b4/iphone_wifi.mp4?s=eyJpIjoyNDE3MDU5NDMzLCJlIjoxNzQ0MzUwNzI0LCJzIjoiNmNjYmUyNjNhNzBiN2E3NGFjY2YwZWM2OGYxOTU2MzFmNWUxY2I1NCIsInYiOjF9')
           
     osc(6,0.1).thresh(0.1,0).modulate(src(s0),1).out(o1)
     src(o0).saturate(2)
@@ -40,7 +40,7 @@ var hydra = new Hydra({
     detectAudio: false
     })
     /*video flicker gato prueba 1*/ 
-    s3.initVideo('https://live.staticflickr.com/video/52045424441/20864ce48c/1080p.mp4?s=eyJpIjo1MjA0NTQyNDQ0MSwiZSI6MTc0MzQ3OTkwNiwicyI6ImFiZGQ2ZGFkYTMxNjY1NDBmMjFiODc5MTY3YmIxYzQ4MGYyMDljMmYiLCJ2IjoxfQ')
+    s3.initVideo('https://live.staticflickr.com/video/41247400630/33485ace34/1080p.mp4?s=eyJpIjo0MTI0NzQwMDYzMCwiZSI6MTc0NDM1MTQ0NywicyI6IjYyZGNiYzcyOWRiY2NkOWU4NTViZTJjNTRlMjM0YjllYTk2ZmMxYzQiLCJ2IjoxfQ')
       
     osc(6,0.1).thresh(0.1,0).modulate(src(s0),1).out(o1)
     src(o0).saturate(1.2)

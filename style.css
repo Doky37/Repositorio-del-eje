@@ -2,69 +2,6 @@
     box-sizing: border-box;   
 }
 
-/*INDEX*/
-/*.pagina1{
-    background-color:burlywood;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.texto{
-    background-color: chartreuse;
-    font-size: 50px;
-    color: darkcyan;
-    padding: 20px;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-}
-
-.container{
-    display: flex;
-    width: 100%;
-    height: 100%;
-}
-
-.sIzquierda{
-    position: absolute;
-    float: left;
-    width: 50%;
-    height: 50%;
-    left: 5%;
-}
-
-.sDerecha{
-    position: absolute;
-    float: left;
-    width: 50%;
-    height: 50%;
-    right: -5%;
-}
-
-.Iizquierda{
-    position:absolute;
-    float: right;
-    width: 50%;
-    height: 50%;
-    left: 5%;
-    top: 50%;
-    
-}
-
-.Iderecha{
-    position: absolute;
-    float: left;
-    width: 50%;
-    height: 50%;
-
-    bottom: 0%;
-    right: -5%
-}
-*/
 
 /*ODISEA1*/
 
@@ -87,6 +24,7 @@
 }
 
 .S2{
+    background-color: azure;
     float: left;
     position: absolute;
     left: 22%;
