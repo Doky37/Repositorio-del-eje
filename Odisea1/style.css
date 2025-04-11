@@ -21,7 +21,7 @@
     height: 100vh;
 }
 
-
+/*canva de hydra con su posicionamiento*/
 #odisea01 {
     position: fixed;
     top: 0;
@@ -44,6 +44,8 @@
 #zona1 { top: 50px; left: 100px; }
 #zona2 { top: 200px; left: 300px; }
 #zona3 { top: 400px; left: 500px; }
+#zona4 { top: 600px; left: 700px; }
+#zona5 { top: 50px; left: 900px; }
 
 /*estilo para los mensajes*/
 .popup {

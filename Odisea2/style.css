@@ -1,28 +1,57 @@
+
 *{
     box-sizing: border-box;   
 }
 
 
-/*ODISEA2*/
+/*ODISEA1*/
+
 .pagina3{
-    background-color: rgb(244, 210, 59);
+    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin: 0;
+    overflow: hidden; /* Evita barras de desplazamiento */
 }
+
 .container2{
     display: flex;
-    width: 100%;
-    height: 100%;
-}
-
-.A1{
-    float: left;
-    position: absolute;
-    
-}
-canvas{
     width: 100vw;
     height: 100vh;
 }
+
+/*canva de hydra con su posicionamiento*/
+#odisea01 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Ocupa todo el ancho de la ventana */
+    height: 100vh; /* Ocupa todo el alto de la ventana */
+    z-index: -1; /* Envía el canvas al fondo */
+}
+
+.zona {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: red;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/* Posiciones de las zonas */
+#zona1 { top: 50px; left: 100px; }
+#zona2 { top: 200px; left: 300px; }
+#zona3 { top: 400px; left: 500px; }
+
+/*estilo para los mensajes*/
+.popup {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.001);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
