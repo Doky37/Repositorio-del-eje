@@ -20,13 +20,16 @@
 
     </div>
 
+    <div id="panel" class="panel">
+        <div class="tab" onclick="togglePanel()">☰</div>
+        <div class="content">
+            <p>Contenido del panel</p>
+        </div>
+    </div>
+
     <!--para las zonas de mensajes -->
 
-    <div id="zona1" class="zona" onclick="mostrarPopup(event, 'Ya es tarde')"></div>
-    <div id="zona2" class="zona" onclick="mostrarPopup(event, 'Por que no pasa el camión')"></div>
-    <div id="zona3" class="zona" onclick="mostrarPopup(event, 'Hace mucho calor')"></div>
-    <div id="zona4" class="zona" onclick="mostrarPopup(event, 'No hay luz')"></div>
-    <div id="zona5" class="zona" onclick="mostrarPopup(event, 'No hay agua')"></div>
+        <div id="zonaCompleta" class="zona" onclick="mostrarPopup(event)"></div>
 
     <div id="popup" class="popup"></div>
 

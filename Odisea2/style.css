@@ -32,12 +32,51 @@
 }
 
 .zona {
-    width: 100px;
-    height: 100px;
     position: absolute;
-    background-color: red;
+}
+
+#zonaCompleta {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Ocupa todo el ancho de la ventana */
+    height: 100vh; /* Ocupa todo el alto de la ventana */
+    background-color: transparent; /* Fondo transparente */
     cursor: pointer;
-    opacity: 0.7;
+    z-index: 10; /* Asegúrate de que esté encima de otros elementos */
+}
+
+/* Panel oculto inicialmente */
+.panel {
+    position: fixed;
+    top: 0;
+    right: -250px; /* Oculto fuera de la pantalla */
+    width: 250px;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    transition: right 0.3s ease; /* Animación suave */
+    z-index: 1000;
+}
+
+/* Pestaña visible */
+.panel .tab {
+    position: absolute;
+    top: 50%;
+    left: -40px; /* Posiciona la pestaña fuera del panel */
+    width: 40px;
+    height: 40px;
+    background-color: #444;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+}
+
+/* Contenido del panel */
+.panel .content {
+    padding: 20px;
 }
 
 /* Posiciones de las zonas */
