@@ -1,20 +1,53 @@
 var hydra = new Hydra({
     canvas: document.getElementById("odisea01"),
+    detectAudio: false
   })
-  /*video flicker gato prueba 1*/ 
 
-  //https://www.flickr.com/photos/gabbcan/2417059433/in/photolist-2jEKC3N-6tXP8g-2qTdcW3-GgNQig-2oesCEh-DSmxJT-2qR9sh8-bra1nq-p33Eg3-2nSpkbf-4FA4yv-p52iuc-2pw18YG-2nXwUjg-bt2rrq-2owrnhT-2qGdjSD-zcKKvC-GBLocD-bm5uon-79MxtG-9NrGuJ-eijkaw-27c95YU-dVHLDa-2gLffFj-aj6Ktn-8FMJGw-7iNkZu-27aZ4vj-5qrgiU-2nSmFP3-Kr1W3u-ZvQDUX-31Sk3d-qbEqeQ-Rx59RD-2hgPvz2-uHAeEj-5qmWir-bt5Ceo-5qreWd-7sHdLb-9rVTvP-6B6FTp-6cZMmH-9rV48c-8FBjvu //
+  // link de flicker al video original 
+
+  //https://www.flickr.com/photos/202458917@N05/54450053248/in/photolist-2qXyKPw
   
-  s0.initVideo('https://live.staticflickr.com/video/54444604058/800f4cd41c/720p.mp4?s=eyJpIjo1NDQ0NDYwNDA1OCwiZSI6MTc0NDQwMzQxNCwicyI6IjY0ZTRhODYxMjgxYmRhZGZhYjFhMDk4ZmZmNzlmZGM0NmVmODU2MTQiLCJ2IjoxfQ')
-  
+  //link del video para pasar por hydra
+  s0.initVideo('https://live.staticflickr.com/video/54450053248/19106e5c3d/720p.mp4?s=eyJpIjo1NDQ1MDA1MzI0OCwiZSI6MTc0NDU4MjIwMCwicyI6ImQzMTRiY2U0OWYxMTVmODNjY2M5Y2Y1NjM2N2FkOTgwNzJmYjNlODYiLCJ2IjoxfQ')
+
+  //los efectos de hydra que se aplican al video
+ 
   osc(6,0.1).thresh(0.1,0).modulate(src(s0),1).out(o1)
   
-    src(o0).saturate(1.5)
-    .modulate(osc(2,0,1.5).brightness(1.2).modulate(noise(2.5).sub(gradient()),1),0.050).layer(
-    src(s0).mask(o1)).out(o0)
-  
+  src(o0).saturate(1.5)
+  .modulate(osc(2,0,1.5).brightness(1.2).modulate(noise(2.5).sub(gradient()),1),0.050).layer(
+  src(s0).mask(o1)).out(o0)
 
-    function mostrarPopup(event, mensaje) {
+    //para la desplegacion del panel
+
+    function togglePanel() {
+      const panel = document.getElementById("panel");
+      if (panel.style.right === "0px") {
+          panel.style.right = "-250px"; // Ocultar el panel
+      } else {
+          panel.style.right = "0px"; // Mostrar el panel
+      }
+    }
+  
+  //para los mensajes aleatorios de las zonas seleccionadad
+
+  const mensajes =[
+    "Ya es tarde ",
+    "Hace demasiado calor",
+    "Ojala pase el camion",
+    "Espero que no vaya lleno el camion",
+    "El sol esta muy fuerte",
+    "Hay mucha gente"
+
+  ]
+
+  function obtenerMensajeAleatorio() {
+      const indice = Math.floor(Math.random() * mensajes.length);
+      return mensajes[indice];
+  }
+
+    function mostrarPopup(event) {
+      const mensaje = obtenerMensajeAleatorio();
       let popup = document.getElementById("popup");
       popup.innerText = mensaje;
       popup.style.left = event.clientX + "px";

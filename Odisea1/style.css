@@ -32,20 +32,53 @@
 }
 
 .zona {
-    width: 100px;
-    height: 100px;
     position: absolute;
-    background-color: red;
-    cursor: pointer;
-    opacity: 0.7;
 }
 
-/* Posiciones de las zonas */
-#zona1 { top: 50px; left: 100px; }
-#zona2 { top: 200px; left: 300px; }
-#zona3 { top: 400px; left: 500px; }
-#zona4 { top: 600px; left: 700px; }
-#zona5 { top: 50px; left: 900px; }
+#zonaCompleta {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Ocupa todo el ancho de la ventana */
+    height: 100vh; /* Ocupa todo el alto de la ventana */
+    background-color: transparent; /* Fondo transparente */
+    cursor: pointer;
+    z-index: 10; /* Asegúrate de que esté encima de otros elementos */
+}
+
+/* Panel oculto inicialmente */
+.panel {
+    position: fixed;
+    top: 0;
+    right: -250px; /* Oculto fuera de la pantalla */
+    width: 250px;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    transition: right 0.3s ease; /* Animación suave */
+    z-index: 1000;
+}
+
+/* Pestaña visible */
+.panel .tab {
+    position: absolute;
+    top: 50%;
+    left: -40px; /* Posiciona la pestaña fuera del panel */
+    width: 40px;
+    height: 40px;
+    background-color: #444;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+}
+
+/* Contenido del panel */
+.panel .content {
+    padding: 20px;
+}
+
 
 /*estilo para los mensajes*/
 .popup {
@@ -53,7 +86,7 @@
     position: absolute;
     background-color: rgba(255, 255, 255, 0.001);
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 5px;
 }
 
