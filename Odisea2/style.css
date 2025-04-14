@@ -1,13 +1,15 @@
 
 *{
-    box-sizing: border-box;   
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scrollbar-color: #4848484a #4848484a;
 }
 
 
 /*ODISEA1*/
 
 .pagina3{
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,16 +49,42 @@
 }
 
 /* Panel oculto inicialmente */
-.panel {
+.panel{
     position: fixed;
     top: 0;
     right: -250px; /* Oculto fuera de la pantalla */
     width: 250px;
     height: 100vh;
-    background-color: #333;
-    color: white;
+    background-color: #4848484a;
     transition: right 0.3s ease; /* Animación suave */
     z-index: 1000;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 5px 5px 5px rgba(0,0,0,1);
+}
+
+.panel-title{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: yellow;
+    text-shadow: 5px 5px 5px rgba(0,0,0,1);
+}
+
+.panel-subtitle{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 10px;
+    color: yellow;
+    text-shadow: 5px 5px 5px rgba(0,0,0,1);
+
+}
+
+.panel-text{
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 10px;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0,0,0,1);
 }
 
 /* Pestaña visible */
@@ -66,7 +94,7 @@
     left: -40px; /* Posiciona la pestaña fuera del panel */
     width: 40px;
     height: 40px;
-    background-color: #444;
+    background-color: #4848484a;
     color: white;
     text-align: center;
     line-height: 40px;
@@ -77,12 +105,9 @@
 /* Contenido del panel */
 .panel .content {
     padding: 20px;
+    overflow-y: auto;
+    height: 100%;
 }
-
-/* Posiciones de las zonas */
-#zona1 { top: 50px; left: 100px; }
-#zona2 { top: 200px; left: 300px; }
-#zona3 { top: 400px; left: 500px; }
 
 /*estilo para los mensajes*/
 .popup {
@@ -90,7 +115,6 @@
     position: absolute;
     background-color: rgba(255, 255, 255, 0.001);
     padding: 10px;
-    border: 1px solid black;
     border-radius: 5px;
+    z-index: 3000;
 }
-
