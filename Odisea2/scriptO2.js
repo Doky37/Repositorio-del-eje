@@ -7,7 +7,7 @@ var hydra = new Hydra({
 
 //https://live.staticflickr.com/video/54445365323/88ff91a6dc/360p.mp4?s=eyJpIjo1NDQ0NTM2NTMyMywiZSI6MTc0NDQwNDE4NSwicyI6ImExYmJiZDI0ZWRiN2Y4MzYyNTlhYTlkOTk1N2Y2Mjc1OGRhNTRmZTkiLCJ2IjoxfQ //
 
-s0.initVideo('https://live.staticflickr.com/video/54445365323/88ff91a6dc/360p.mp4?s=eyJpIjo1NDQ0NTM2NTMyMywiZSI6MTc0NDY2MjYxMSwicyI6IjQyMDg2Zjc1YWZhZDExM2E3OTRhZWQ3NGY5MmQxNTRmZWJhYmEyYzEiLCJ2IjoxfQ')
+s0.initVideo('https://live.staticflickr.com/video/54445365323/88ff91a6dc/360p.mp4?s=eyJpIjo1NDQ0NTM2NTMyMywiZSI6MTc0NDc1MDY1MCwicyI6ImNmMzNiZGQzMjYxNjdlZGE1ZTM5OTE4N2VhZDc5OTFjYTliY2YyOTIiLCJ2IjoxfQ')
 
 osc(10, 0.03, 1.5).layer(src(s0)
   .contrast(5)
