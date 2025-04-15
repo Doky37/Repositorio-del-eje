@@ -6,7 +6,7 @@
 
 /*ODISEA1*/
 
-.pagina4{
+.pagina2{
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
@@ -15,14 +15,13 @@
     overflow: hidden; /* Evita barras de desplazamiento */
 }
 
-.container3{
+.container1{
     display: flex;
     width: 100vw;
     height: 100vh;
 }
 
 /*canva de hydra con su posicionamiento*/
-
 #odisea01 {
     position: fixed;
     top: 0;
@@ -54,12 +53,10 @@
     right: -250px; /* Oculto fuera de la pantalla */
     width: 250px;
     height: 100vh;
-    background-color: #4848484a;
-    color: rgb(255, 255, 255);
+    background-color: #333;
+    color: white;
     transition: right 0.3s ease; /* Animación suave */
     z-index: 1000;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 900;
 }
 
 /* Pestaña visible */
@@ -69,7 +66,7 @@
     left: -40px; /* Posiciona la pestaña fuera del panel */
     width: 40px;
     height: 40px;
-    background-color: #4848484a;
+    background-color: #444;
     color: white;
     text-align: center;
     line-height: 40px;
@@ -80,18 +77,16 @@
 /* Contenido del panel */
 .panel .content {
     padding: 20px;
-    font-size: 14px;
 }
+
 
 /*estilo para los mensajes*/
 .popup {
-    font-family: 'Courier New', Courier, monospace;
-    font-size:50px;
-    text-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
-    color: yellow;
     display: none;
     position: absolute;
+    background-color: rgba(255, 255, 255, 0.001);
     padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 5px;
 }
 
