@@ -1,5 +1,5 @@
 var hydra = new Hydra({
-  canvas: document.getElementById("odisea01"),
+  canvas: document.getElementById("odisea03"),
   detectAudio: false
 })
 

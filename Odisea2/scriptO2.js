@@ -9,11 +9,15 @@ var hydra = new Hydra({
 
 s0.initVideo('https://live.staticflickr.com/video/54445365323/88ff91a6dc/360p.mp4?s=eyJpIjo1NDQ0NTM2NTMyMywiZSI6MTc0NDY2MjYxMSwicyI6IjQyMDg2Zjc1YWZhZDExM2E3OTRhZWQ3NGY5MmQxNTRmZWJhYmEyYzEiLCJ2IjoxfQ')
 
-osc(6,0.1).thresh(0.1,0).modulate(src(s0),1).out(o1)
-
-  src(o0).saturate(1.2)
-  .modulate(osc(6,0,1.5).brightness(0.5).modulate(noise(3).sub(gradient()),1),0.003).layer(
-  src(s0).mask(o1)).out(o0)
+osc(10, 0.03, 1.5).layer(src(s0)
+  .contrast(5)
+  .saturate(0.5)
+  .brightness(0.5))
+  .colorama(0.5)
+  .modulate(osc(6, 0.1, 1.5).brightness(0.5), 0.003)
+  .layer(src(s0)
+  .mask(osc(6, 0, 1.5).brightness(0.5).sub(gradient(0.5)), 1))
+  .out(o0)
 
     //para la desplegacion del panel 
     
