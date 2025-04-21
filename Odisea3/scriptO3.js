@@ -8,7 +8,7 @@ var hydra = new Hydra({
 //https://www.flickr.com/photos/202458917@N05/54450053248/in/photolist-2qXyKPw
 
 //link del video para pasar por hydra
-s0.initVideo('https://live.staticflickr.com/video/54445681295/6ae7ab0ecb/360p.mp4?s=eyJpIjo1NDQ0NTY4MTI5NSwiZSI6MTc0NTE5ODgwMSwicyI6ImE3YzUyNzU2NzkyNmMwMzM1YjgxZDNlMzY2MTZiM2RhYjk1ZWFkZjMiLCJ2IjoxfQ ')
+s0.initVideo('https://files.catbox.moe/q30cd1.mp4 ')
 
 //los efectos de hydra que se aplican al video
 
