@@ -61,6 +61,38 @@
     text-shadow: 5px 5px 5px rgba(0,0,0,1);
 }
 
+
+.panel-title{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    background: linear-gradient(90deg, rgb(151, 80, 189), cyan, yellow, cyan, rgb(151, 80, 189)); /* Gradiente de colores */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300%; /* Aumenta el tamaño del fondo para permitir el movimiento */
+    animation: colorSpectrum 5s infinite linear; /* Asegura un movimiento suave y continuo */ 
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.panel-subtitle{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 10px;
+    color: yellow;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+
+}
+
+.panel-text{
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 10px;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0,0,0,1);
+}
+
+
 /* Pestaña visible */
 .panel .tab {
     position: absolute;
@@ -88,6 +120,7 @@
 .popup {
     display: none;
     position: absolute;
+    font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
     color: yellow;
     padding: 10px;
@@ -95,3 +128,79 @@
     border-radius: 5px;
 }
 
+
+h3{
+    background: linear-gradient(90deg, magenta, cyan, yellow, cyan, magenta);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300%; /* Aumenta el tamaño del fondo para permitir el movimiento */
+    animation: colorSpectrum 5s infinite linear; /* Asegura un movimiento suave y continuo */ 
+}
+
+
+/* para las responsivas*/
+
+/* Estilos para tablets (menos de 1024px) */
+@media (max-width: 1024px) {
+    .panel {
+        width: 200px;
+        font-size: 14px;
+    }
+
+    .panel .tab {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+    }
+
+    .panel-title {
+        font-size: 18px;
+    }
+
+    .panel-subtitle,
+    .panel-text {
+        font-size: 13px;
+    }
+
+    .popup {
+        font-size: 25px;
+    }
+}
+
+/* Estilos para celulares (menos de 768px) */
+@media (max-width: 768px) {
+    .container1 {
+        flex-direction: column;
+    }
+
+    .panel {
+        width: 100%;
+        height: 40vh;
+        bottom: 0;
+        top: auto;
+        right: 0;
+        transition: bottom 0.3s ease;
+    }
+
+    .panel .tab {
+        top: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 5px 5px 0 0;
+    }
+
+    .panel-title {
+        font-size: 16px;
+    }
+
+    .panel-subtitle,
+    .panel-text {
+        font-size: 12px;
+    }
+
+    .popup {
+        font-size: 20px;
+    }
+}
