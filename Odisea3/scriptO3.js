@@ -33,10 +33,10 @@ src(s0).mask(o1)).out(o0)
 
 const mensajes =[
   "Ya es tarde ",
-  "Hace demasiado calor",
+  "Hace mucho frío",
   "Ojala pase el camion",
   "Espero que no vaya lleno el camion",
-  "El sol esta muy fuerte",
+  "Ya esta oscureciendo",
   "Hay mucha gente"
 
 ]
