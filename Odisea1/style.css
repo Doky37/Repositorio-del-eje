@@ -53,10 +53,12 @@
     right: -250px; /* Oculto fuera de la pantalla */
     width: 250px;
     height: 100vh;
-    background-color: #333;
+    background-color: #4a4a4aa2;
     color: white;
     transition: right 0.3s ease; /* Animación suave */
     z-index: 1000;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 5px 5px 5px rgba(0,0,0,1);
 }
 
 /* Pestaña visible */
@@ -66,7 +68,7 @@
     left: -40px; /* Posiciona la pestaña fuera del panel */
     width: 40px;
     height: 40px;
-    background-color: #444;
+    background-color: #4a4a4aa2;
     color: white;
     text-align: center;
     line-height: 40px;
@@ -86,7 +88,8 @@
 .popup {
     display: none;
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.001);
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
     padding: 10px;
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 5px;

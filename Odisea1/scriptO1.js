@@ -8,8 +8,9 @@ var hydra = new Hydra({
   //https://www.flickr.com/photos/202458917@N05/54450053248/in/photolist-2qXyKPw
   
   //link del video para pasar por hydra
-  s0.initVideo('https://live.staticflickr.com/video/54464902793/a8b82d1528/360p.mp4?s=eyJpIjo1NDQ2NDkwMjc5MywiZSI6MTc0NTE4ODk4NiwicyI6ImZhOGFlOGIwMDZhMTNmN2EwOGE2MzU3ZDA1YzE2ZTI4YTk3OWQ1NGIiLCJ2IjoxfQ')
-  //s0.initVideo('https://live.staticflickr.com/video/2417059433/7b3e2439b4/iphone_wifi.mp4?s=eyJpIjoyNDE3MDU5NDMzLCJlIjoxNzQ1MTg0NzIwLCJzIjoiMmVhOTVkMjNlYmEzMTcwZTE4YTEwYjlhNWQ4ZGI4ZTE0NmY4NTUyNCIsInYiOjF9')
+  s0.initVideo('https://live.staticflickr.com/video/54464902793/a8b82d1528/360p.mp4?s=eyJpIjo1NDQ2NDkwMjc5MywiZSI6MTc0NTE5ODIzMCwicyI6IjgyZmRiNjBjYTM5NjY2NTY0MTdjYWFhNWNlMzBjMzRjNTYxZWZjNjYiLCJ2IjoxfQ')
+  //s0.initVideo('https://live.staticflickr.com/video/2417059433/7b3e2439b4/iphone_wifi.mp4?s=eyJpIjoyNDE3MDU5NDMzLCJlIjoxNzQ1MTk4Mjk4LCJzIjoiYjM3NDQ1NjU4MzAwMTVlNTRjOWYwOGI5MDA4NjNmOTRhNDliMzViNyIsInYiOjF9')
+
 
 
   //los efectos de hydra que se aplican al video
@@ -39,7 +40,18 @@ var hydra = new Hydra({
     "Ojala pase el camion",
     "Espero que no vaya lleno el camion",
     "El sol esta muy fuerte",
-    "Hay mucha gente"
+    "Hay mucha gente",
+    "El semaforo esta en rojo", 
+    "Esta tardando en cambiar el semaforo",
+    "Ya es hora pico",
+    "Estara el señor de las flores",
+    "Tengo que avanzarle al eje",
+    "Que lecturas debo de leer para mañana",
+    "Tengo hambre",
+    "Todavia tendre agua en la botella",
+    "Tengo la boca seca",
+    "Ese el sonido del tren",
+    "El tren va a pasar"
 
   ]
 
