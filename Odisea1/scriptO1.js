@@ -3,12 +3,18 @@ var hydra = new Hydra({
     detectAudio: false
   })
 
-  // link de flicker al video original 
+
+  // intento por medio de iframe
+
+  // link de flicker al video original
 
   //https://www.flickr.com/photos/202458917@N05/54450053248/in/photolist-2qXyKPw
   
   //link del video para pasar por hydra
-  s0.initVideo('https://live.staticflickr.com/video/54450053248/19106e5c3d/720p.mp4?s=eyJpIjo1NDQ1MDA1MzI0OCwiZSI6MTc0NDU4MjIwMCwicyI6ImQzMTRiY2U0OWYxMTVmODNjY2M5Y2Y1NjM2N2FkOTgwNzJmYjNlODYiLCJ2IjoxfQ')
+  s0.initVideo('https://files.catbox.moe/cmbra0.mp4')
+  //s0.initVideo('https://live.staticflickr.com/video/2417059433/7b3e2439b4/iphone_wifi.mp4?s=eyJpIjoyNDE3MDU5NDMzLCJlIjoxNzQ1MTk4Mjk4LCJzIjoiYjM3NDQ1NjU4MzAwMTVlNTRjOWYwOGI5MDA4NjNmOTRhNDliMzViNyIsInYiOjF9')
+
+
 
   //los efectos de hydra que se aplican al video
  
@@ -17,6 +23,7 @@ var hydra = new Hydra({
   src(o0).saturate(1.5)
   .modulate(osc(2,0,1.5).brightness(1.2).modulate(noise(2.5).sub(gradient()),1),0.050).layer(
   src(s0).mask(o1)).out(o0)
+
 
     //para la desplegacion del panel
 
@@ -37,7 +44,18 @@ var hydra = new Hydra({
     "Ojala pase el camion",
     "Espero que no vaya lleno el camion",
     "El sol esta muy fuerte",
-    "Hay mucha gente"
+    "Hay mucha gente",
+    "El semaforo esta en rojo", 
+    "Esta tardando en cambiar el semaforo",
+    "Ya es hora pico",
+    "Estara el señor de las flores",
+    "Tengo que avanzarle al eje",
+    "Que lecturas debo de leer para mañana",
+    "Tengo hambre",
+    "Todavia tendre agua en la botella",
+    "Tengo la boca seca",
+    "Ese el sonido del tren",
+    "El tren va a pasar"
 
   ]
 
