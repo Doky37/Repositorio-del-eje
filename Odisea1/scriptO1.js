@@ -3,12 +3,15 @@ var hydra = new Hydra({
     detectAudio: false
   })
 
-  // link de flicker al video original 
+
+  // intento por medio de iframe
+
+  // link de flicker al video original
 
   //https://www.flickr.com/photos/202458917@N05/54450053248/in/photolist-2qXyKPw
   
   //link del video para pasar por hydra
-  s0.initVideo('https://live.staticflickr.com/video/54464902793/a8b82d1528/360p.mp4?s=eyJpIjo1NDQ2NDkwMjc5MywiZSI6MTc0NTE5ODIzMCwicyI6IjgyZmRiNjBjYTM5NjY2NTY0MTdjYWFhNWNlMzBjMzRjNTYxZWZjNjYiLCJ2IjoxfQ')
+  s0.initVideo('https://files.catbox.moe/cmbra0.mp4')
   //s0.initVideo('https://live.staticflickr.com/video/2417059433/7b3e2439b4/iphone_wifi.mp4?s=eyJpIjoyNDE3MDU5NDMzLCJlIjoxNzQ1MTk4Mjk4LCJzIjoiYjM3NDQ1NjU4MzAwMTVlNTRjOWYwOGI5MDA4NjNmOTRhNDliMzViNyIsInYiOjF9')
 
 
@@ -20,6 +23,7 @@ var hydra = new Hydra({
   src(o0).saturate(1.5)
   .modulate(osc(2,0,1.5).brightness(1.2).modulate(noise(2.5).sub(gradient()),1),0.050).layer(
   src(s0).mask(o1)).out(o0)
+
 
     //para la desplegacion del panel
 
