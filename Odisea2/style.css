@@ -125,7 +125,7 @@
 /*estilo para los mensajes*/
 .popup {
     font-family: 'Courier New', Courier, monospace;
-    font-size:50px;
+    font-size:25px;
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
     color: yellow;
     display: none;

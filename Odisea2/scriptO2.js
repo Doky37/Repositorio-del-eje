@@ -33,12 +33,28 @@ osc(10, 0.03, 1.5).layer(src(s0)
   //para los mensajes aleatorios de las zonas seleccionadas
 
   const mensajes =[
-    "Ya es tarde ",
-    "Hace demasiado calor",
-    "Ojala pase el camion",
-    "Espero que no vaya lleno el camion",
-    "El sol esta muy fuerte",
-    "Hay mucha gente"
+    "Ya se me hizo tarde.",
+    "Hace mucho calor.",
+    "Mi camión tarda una hora en pasar... puta madre.",
+    "¿Y si me asaltan?",
+    "Tengo hambre, se me antoja una maruchan.",
+    "El sol esta muy fuerte.",
+    "Hay mucha gente.",
+    "No quiero esperar la combi, mejor me voy caminando.",
+    "Este camino siempre se me ha hecho eterno.",
+    "Qué rico sería un cigarro en este momento.",
+    "Debí de haberme puesto bloqueador.",
+    "¿Y si esta ruta es peligrosa?.",
+    "¡No vayas a sacar el teléfono!",
+    "¿Traeré dinero suficiente?.",
+    "El atardecer es muy bonito.",
+    "Por esta calle un muchacho fue aplastado por un camión de carga, qué miedo.",
+    "¿Qué música debería de escuchar?.",
+    "Nicki Minaj fue a un concierto en China que resultó ser falso jajaja.",
+    "En mi autobús nunca se suben vendedores ambulantes",
+    "Qué bueno que me encontré a ____",
+    "Tengo un chingo de tarea.",
+    "Ojalá estuviera drogado.",
 
   ]
 
