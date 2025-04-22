@@ -14,8 +14,13 @@ var hydra = new Hydra({
   osc(6,0.1).thresh(0.1,0).modulate(src(s0),1).out(o1)
   
   src(o0).saturate(1.5)
-  .modulate(osc(2,0,1.5).brightness(1.2).modulate(noise(2.5).sub(gradient()),1),0.050).layer(
-  src(s0).mask(o1)).out(o0)
+  .modulate(osc(2,0,1.5)
+  .brightness(1.2)
+  .modulate(noise(2.5)
+  .sub(gradient()),1),0.050)
+  .layer(
+  src(s0).mask(o1))
+  .luma(0.2).out(o0)
 
 
     //para la desplegacion del panel
@@ -47,7 +52,7 @@ var hydra = new Hydra({
     "Tengo hambre",
     "Todavia tendre agua en la botella",
     "Tengo la boca seca",
-    "Ese el sonido del tren",
+    "Ese es el sonido del tren",
     "El tren va a pasar"
 
   ]

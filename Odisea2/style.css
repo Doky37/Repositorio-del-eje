@@ -122,6 +122,39 @@
     height: 100%;
 }
 
+/*links de botones*/
+.boton{
+    background-color: none;
+    background: linear-gradient(90deg, blue, indigo, violet);
+    background-size: 500%;
+    animation: colorSpectrum 5s infinite linear;
+    border:none;
+    color:aliceblue;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 10px 65px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+.boton:hover {
+    background: linear-gradient(90deg, red, yellow, green);
+    background-size: 500%;
+    animation: colorSpectrum 5s infinite linear;
+    cursor: pointer;
+}
+
+.boton:active {
+    background: linear-gradient(90deg, green, blue, purple);
+    background-size: 500%;
+    animation: colorSpectrum 5s infinite linear;
+    cursor: pointer;
+}
+
 /*estilo para los mensajes*/
 .popup {
     font-family: 'Courier New', Courier, monospace;
@@ -141,4 +174,117 @@ h3{
     -webkit-text-fill-color: transparent;
     background-size: 300%; /* Aumenta el tamaño del fondo para permitir el movimiento */
     animation: colorSpectrum 5s infinite linear; /* Asegura un movimiento suave y continuo */ 
+}
+
+
+/* para las responsivas*/
+
+/* Estilos para tablets (menos de 1024px) */
+@media (max-width: 1024px) {
+    .panel {
+        width: 200px;
+        font-size: 14px;
+        height: 100vh;
+    }
+
+    .panel .tab {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+    }
+
+    .panel-title {
+        font-size: 18px;
+    }
+
+    .panel-subtitle,
+    .panel-text {
+        font-size: 13px;
+    }
+
+    .popup {
+        font-size: 25px;
+    }
+}
+
+/* Estilos para celulares (menos de 768px) */
+@media (max-width: 768px) {
+    .container1 {
+        flex-direction: column;
+    }
+
+    .panel {
+        width: 100%;
+        height: 40vh;
+        bottom: 0;
+        top: auto;
+        right: 0;
+        transition: bottom 0.3s ease;
+    }
+
+    .panel .tab {
+        top: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40px;
+        width: 40px;
+        line-height: 40px;
+        font-size: 14px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .panel-title {
+        font-size: 16px;
+    }
+
+    .panel-subtitle,
+    .panel-text {
+        font-size: 12px;
+    }
+
+    .popup {
+        font-size: 20px;
+    }
+}
+
+/*para pantallas pequenas de 480*/
+@media(max-width: 480px){
+    .container1 {
+        flex-direction: column;
+    }
+
+    .panel {
+        width: 100%;
+        height: 50vh;
+        bottom: 0;
+        top: auto;
+        right: 0;
+        transition: bottom 0.3s ease;
+        overflow-y: auto; /* Permite desplazamiento vertical */
+    }
+
+    .panel .tab {
+        top: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .panel-title {
+        font-size: 16px;
+    }
+
+    .panel-subtitle,
+    .panel-text {
+        font-size: 12px;
+    }
+
+    .popup {
+        font-size: 18px;
+    }
 }

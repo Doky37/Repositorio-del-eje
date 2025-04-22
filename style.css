@@ -4,15 +4,15 @@
 
 body{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column; /* Coloca los elementos en una columna */
+    justify-content: space-between; /* Distribuye los elementos para que el footer esté abajo */
     align-items: center;
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
 }
+
 /*Botones*/
 .container {
     display: flex;
@@ -49,6 +49,7 @@ h1 {
 
 .Odisea {
     color: white;
+    padding:10px;
     font-size: 100px;
     text-align: center;
     font-family:  'Courier New', Courier, monospace;
@@ -122,6 +123,22 @@ h2{
     padding-bottom: 100px;
 } 
 
+
+/*footer*/
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Altura del footer */
+    background-color: black; /* Color de fondo del footer */
+    color: white; /* Color del texto */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    width: 100%; /* Asegura que ocupe todo el ancho */
+}
+
 /* para las responsivas*/
 
 /* Estilos para tablets (menos de 1024px) */
@@ -157,6 +174,11 @@ h2{
         display: block; /* Botones en columna */
         margin: 10px auto; /* Centra los botones */
     }
+
+    .footer-content {
+        font-size: 12px; /* Texto más pequeño en pantallas pequeñas */
+        height: 80px; /* Reduce la altura del footer */
+    }
 }
 
 @media(max-width: 480px){
@@ -172,5 +194,10 @@ h2{
         width: 90%; /* Botones ocupan más espacio horizontal */
         display: block; /* Botones en columna */
         margin: 5px auto; /* Centra los botones */
+    }
+
+    .footer-content {
+        font-size: 10px; /* Texto aún más pequeño en pantallas muy pequeñas */
+        height: 60px; /* Reduce aún más la altura del footer */
     }
 }
