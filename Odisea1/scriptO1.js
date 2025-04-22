@@ -11,7 +11,7 @@ var hydra = new Hydra({
   //https://www.flickr.com/photos/202458917@N05/54450053248/in/photolist-2qXyKPw
   
   //link del video para pasar por hydra
-  s0.initVideo('https://files.catbox.moe/cmbra0.mp4')
+  s0.initVideo('https://files.catbox.moe/qwe77f.mp4')
   //s0.initVideo('https://live.staticflickr.com/video/2417059433/7b3e2439b4/iphone_wifi.mp4?s=eyJpIjoyNDE3MDU5NDMzLCJlIjoxNzQ1MTk4Mjk4LCJzIjoiYjM3NDQ1NjU4MzAwMTVlNTRjOWYwOGI5MDA4NjNmOTRhNDliMzViNyIsInYiOjF9')
 
 
@@ -36,6 +36,7 @@ var hydra = new Hydra({
       }
     }
   
+    
   //para los mensajes aleatorios de las zonas seleccionadad
 
   const mensajes =[
