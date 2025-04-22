@@ -36,6 +36,7 @@ var hydra = new Hydra({
       }
     }
   
+    
   //para los mensajes aleatorios de las zonas seleccionadad
 
   const mensajes =[

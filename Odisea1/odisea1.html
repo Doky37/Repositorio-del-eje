@@ -6,7 +6,7 @@
     <title>Odisea Urbana</title>
     <script src="https://unpkg.com/hydra-synth"></script>
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 
 </head>
 
@@ -21,8 +21,8 @@
 
     </div>
 
-    <div id="panel" class="panel">
-        <div class="tab" onclick="togglePanel()">☰</div>
+    <div id="panel" class="panel" role="complementary" aria-label="Panel de información del viaje">
+        <div class="tab" onclick="togglePanel()" aria-label="Abrir o cerrar panel">☰</div>
         <div class="content">
             <div class="panel-title">
                 <h2>Odisea de Donnie</h2>
@@ -78,7 +78,7 @@
         </div>
     </div>
 
-    <div id="zonaCompleta" class="zona" onclick="mostrarPopup(event)"></div>
+    <div id="zonaCompleta" class="zona" onclick="mostrarPopup(event)" aria-label="Zona de interacción visual"></div>
 
     <div id="popup" class="popup"></div>
 
