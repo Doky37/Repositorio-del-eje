@@ -115,6 +115,39 @@
     height: 100%;
 }
 
+/*boton dentro del panel (regreso)*/
+
+.boton{
+    background-color: none;
+    background: linear-gradient(90deg, blue, indigo, violet);
+    background-size: 500%;
+    animation: colorSpectrum 5s infinite linear;
+    border:none;
+    color:aliceblue;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 10px 65px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+.boton:hover {
+    background: linear-gradient(90deg, red, yellow, green);
+    background-size: 500%;
+    animation: colorSpectrum 5s infinite linear;
+    cursor: pointer;
+}
+
+.boton:active {
+    background: linear-gradient(90deg, green, blue, purple);
+    background-size: 500%;
+    animation: colorSpectrum 5s infinite linear;
+    cursor: pointer;
+}
 
 /*estilo para los mensajes*/
 .popup {
