@@ -41,10 +41,12 @@ h1 {
         background-position: 100% 50%;
     }
 }
+
 /* Estilos para los títulos*/
 .pagina1{
     background-color: black;
 }
+
 .Odisea {
     color: white;
     font-size: 100px;
@@ -120,8 +122,55 @@ h2{
     padding-bottom: 100px;
 } 
 
-@media screen and (max-width:800px) {
-    .derecha, .izquierda, .centro {
-        width: 100%;
+/* para las responsivas*/
+
+/* Estilos para tablets (menos de 1024px) */
+@media (max-width: 1024px) {
+    .Odisea {
+        font-size: 80px; /* Reduce el tamaño del texto */
+    }
+
+    .Urbana {
+        font-size: 120px; /* Reduce el tamaño del texto */
+    }
+
+    .boton {
+        font-size: 1.2rem; /* Reduce el tamaño de los botones */
+        padding: 8px 16px;
+    }
+}
+
+/* Estilos para celulares (menos de 768px) */
+@media (max-width: 768px) {
+    .Odisea {
+        font-size: 60px; /* Texto más pequeño para celulares */
+    }
+
+    .Urbana {
+        font-size: 90px; /* Texto más pequeño para celulares */
+    }
+
+    .boton {
+        font-size: 1rem; /* Botones más pequeños */
+        padding: 6px 12px;
+        width: 80%; /* Botones ocupan más espacio horizontal */
+        display: block; /* Botones en columna */
+        margin: 10px auto; /* Centra los botones */
+    }
+}
+
+@media(max-width: 480px){
+    .Odisea{
+        font-size: 40px; /* Texto más pequeño para celulares */
+    }
+    .Urbana{
+        font-size: 60px; /* Texto más pequeño para celulares */
+    }
+    .boton{
+        font-size: 0.8rem; /* Botones más pequeños */
+        padding: 4px 8px;
+        width: 90%; /* Botones ocupan más espacio horizontal */
+        display: block; /* Botones en columna */
+        margin: 5px auto; /* Centra los botones */
     }
 }
