@@ -3,9 +3,7 @@ var hydra = new Hydra({
   detectAudio: false
 })
 
-// link de flicker al video original 
-
-//https://www.flickr.com/photos/202458917@N05/54450053248/in/photolist-2qXyKPw
+// link de catbox
 
 //link del video para pasar por hydra
 s0.initVideo('https://files.catbox.moe/q30cd1.mp4 ')
