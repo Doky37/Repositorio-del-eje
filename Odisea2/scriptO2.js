@@ -87,7 +87,7 @@ osc(10, 0.03, 1.5).layer(src(s0)
 
 // Lista de páginas a las que puede redirigir
 const paginas = [
-  "../Odisea2/odisea2.html", // Página 1
+  "../Odisea1/odisea1.html", // Página 1
   "../Odisea3/odisea3.html" // Página 2
 ];
 
