@@ -169,7 +169,7 @@
 }
 
 h3{
-    background: linear-gradient(90deg, magenta, cyan, yellow, cyan, magenta);
+    background: linear-gradient(90deg, rgb(115, 0, 255), cyan, yellow, cyan, rgb(106, 0, 255));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
