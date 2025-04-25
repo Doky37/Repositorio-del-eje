@@ -129,15 +129,14 @@
     background-size: 500%;
     animation: colorSpectrum 5s infinite linear;
     border:none;
-    color:aliceblue;
+    color: yellow;
     font-weight: bold;
     font-family:'Courier New', Courier, monospace;
-    font-size: 20px;
     padding: 10px 65px;
     text-align: center;
     text-decoration: none;
-    font-size: 1.4rem;
-    border-radius: 5px;
+    font-size: 16px;
+    border-radius: 3px;
     cursor: pointer;
     transition: background 0.3s ease, transform 0.3s ease;
 }
@@ -146,6 +145,7 @@
     background-size: 500%;
     animation: colorSpectrum 5s infinite linear;
     cursor: pointer;
+    color:aquamarine;
 }
 
 .boton:active {
@@ -153,6 +153,7 @@
     background-size: 500%;
     animation: colorSpectrum 5s infinite linear;
     cursor: pointer;
+    color: violet;
 }
 
 /*estilo para los mensajes*/

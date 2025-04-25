@@ -31,13 +31,37 @@ osc(10, 0.03, 1.5).layer(src(s0)
   //para los mensajes aleatorios de las zonas seleccionadas
 
   const mensajes =[
-    "Ya es tarde ",
-    "Hace demasiado calor",
-    "Ojala pase el camion",
-    "Espero que no vaya lleno el camion",
-    "El sol esta muy fuerte",
-    "Hay mucha gente"
-
+    "¿Qué tan tarde es?",
+    "El sol está pegando en mi piel muy fuerte",
+    "El autobús tarda cada hora en llegar",
+    "¿Cómo estaría ahora mismo si hubiera consumido marihuana?",
+    "¿Qué pasa con la sombra?",
+    "Casi no hay gente en la calle",
+    "¿Y si me asaltan?",
+    "¿Me veré muy llamativo?",
+    "¡No saques el teléfono!",
+    "Este camino siempre se me ha hecho eterno",
+    "No le he avisado a nadie que ando por aquí",
+    "mi proyecto del PECDA...",
+    "¿Se me habrá olvidado algo?",
+    "¿Tengo todas mis cosas?",
+    "Ojalá estuviera drogado",
+    "Estaría rico un cigarro ahora mismo",
+    "Se me antojaron unas papas",
+    "El cielo está muy despejado",
+    "Estás hablando solo...",
+    "Nicki Minaj fue a un concierto a China que resultó ser falso",
+    "No le he avisado a mi mamá",
+    "No le he avisado a mi papá",
+    "¿Por qué me puse a pensar de repente en escenarios traumáticos?",
+    "Paso demasiado tiempo en el autobús",
+    "Me sale muy caro transportarme, ¿Cómo que $13 a mi casa?",
+    "Estas pensando en voz alta, ya cállate",
+    "Párate derecho",
+    "No agaches la cabeza",
+    "Ya falta poco",
+    "Debería dormir en cuanto esté en el autobús",
+    "Podría poner música en este momento, ¿Traeré mis audífonos?"
   ]
 
   function obtenerMensajeAleatorio() {
