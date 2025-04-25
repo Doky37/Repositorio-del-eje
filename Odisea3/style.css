@@ -1,12 +1,22 @@
 
 *{
-    box-sizing: border-box;   
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scrollbar-color: #4848484a #4848484a;
 }
 
+@keyframes colorSpectrum {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
 
 /*ODISEA1*/
 
-.pagina2{
+.pagina3{
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
@@ -15,7 +25,7 @@
     overflow: hidden; /* Evita barras de desplazamiento */
 }
 
-.container1{
+.container2{
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -47,7 +57,7 @@
 }
 
 /* Panel oculto inicialmente */
-.panel {
+.panel{
     position: fixed;
     top: 0;
     right: -250px; /* Oculto fuera de la pantalla */
@@ -70,7 +80,8 @@
     -webkit-text-fill-color: transparent;
     background-size: 300%; /* Aumenta el tamaño del fondo para permitir el movimiento */
     animation: colorSpectrum 5s infinite linear; /* Asegura un movimiento suave y continuo */ 
-    text-shadow: 5px 5px 5px rgba(0,0,0,0.5);}
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
 
 .panel-subtitle{
     font-size: 15px;
@@ -89,53 +100,6 @@
     text-shadow: 5px 5px 5px rgba(0,0,0,1);
 }
 
-
-/*links de botones*/
-.boton{
-    background-color: none;
-    background: linear-gradient(90deg, blue, indigo, violet);
-    background-size: 500%;
-    animation: colorSpectrum 5s infinite linear;
-    border:none;
-    color:aliceblue;
-    font-weight: bold;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 20px;
-    padding: 10px 65px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.4rem;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s ease, transform 0.3s ease;
-}
-.boton:hover {
-    background: linear-gradient(90deg, red, yellow, green);
-    background-size: 500%;
-    animation: colorSpectrum 5s infinite linear;
-    cursor: pointer;
-}
-
-.boton:active {
-    background: linear-gradient(90deg, green, blue, purple);
-    background-size: 500%;
-    animation: colorSpectrum 5s infinite linear;
-    cursor: pointer;
-}
-
-/*estilo para los mensajes*/
-.popup {
-    font-family: 'Courier New', Courier, monospace;
-    font-size:50px;
-    text-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
-    color: yellow;
-    display: none;
-    position: absolute;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-
 /* Pestaña visible */
 .panel .tab {
     position: absolute;
@@ -151,10 +115,57 @@
     border-radius: 5px 0 0 5px;
 }
 
-
 /* Contenido del panel */
 .panel .content {
     padding: 20px;
+    overflow-y: auto;
+    height: 100%;
+}
+
+/*links de botones*/
+.boton{
+    background-color: none;
+    background: linear-gradient(90deg, blue, indigo, violet);
+    background-size: 500%;
+    animation: colorSpectrum 5s infinite linear;
+    border:none;
+    color: yellow;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px 65px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+.boton:hover {
+    background: linear-gradient(90deg, red, yellow, green);
+    background-size: 500%;
+    animation: colorSpectrum 5s infinite linear;
+    cursor: pointer;
+    color:aquamarine;
+}
+
+.boton:active {
+    background: linear-gradient(90deg, green, blue, purple);
+    background-size: 500%;
+    animation: colorSpectrum 5s infinite linear;
+    cursor: pointer;
+    color: violet;
+}
+
+/*estilo para los mensajes*/
+.popup {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:25px;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+    color: yellow;
+    display: none;
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 h3{

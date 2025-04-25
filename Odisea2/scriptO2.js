@@ -82,3 +82,23 @@ osc(10, 0.03, 1.5).layer(src(s0)
       }, 2000); // Se oculta después de 2 segundos
   }
   
+
+  //codigo para la aletoriedad de las paginas 
+
+// Lista de páginas a las que puede redirigir
+const paginas = [
+  "../Odisea2/odisea2.html", // Página 1
+  "../Odisea3/odisea3.html" // Página 2
+];
+
+// Selecciona el enlace por su ID
+const enlaceRegreso = document.getElementById("regreso");
+
+// Función para asignar un enlace aleatorio
+function asignarEnlaceAleatorio() {
+  const paginaAleatoria = paginas[Math.floor(Math.random() * paginas.length)];
+  enlaceRegreso.setAttribute("href", paginaAleatoria);
+}
+
+// Llama a la función al cargar la página
+asignarEnlaceAleatorio();
