@@ -62,7 +62,7 @@ function obtenerMensajeAleatorio() {
 // Lista de páginas a las que puede redirigir
 const paginas = [
   "../Odisea2/odisea2.html", // Página 1
-  "../Odisea3/odisea1.html" // Página 2
+  "../Odisea1/odisea1.html" // Página 2
 ];
 
 // Selecciona el enlace por su ID
