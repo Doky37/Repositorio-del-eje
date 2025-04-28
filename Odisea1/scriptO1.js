@@ -11,15 +11,16 @@ var hydra = new Hydra({
 
   //los efectos de hydra que se aplican al video
  
-  osc(6,0.1).thresh(0.1,0).modulate(src(s0),1).out(o1)
+  osc(10,0.1,1.5).color(0.6,0,0.8).thresh(0.1,0).modulate(src(s0),0.5).out(o1)
   
   src(o0).saturate(1.5)
-  .modulate(osc(2,0,1.5)
+  .modulate(osc(5,0,1.5)
   .brightness(1.2)
   .modulate(noise(2.5)
   .sub(gradient()),1),0.050)
   .layer(
   src(s0).mask(o1))
+  .scrollX(0.05, 0.02)
   .luma(0.2).out(o0)
 
 
